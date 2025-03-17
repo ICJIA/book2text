@@ -1,6 +1,6 @@
 {
     "name": "book2text",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert ePub and MOBI files to text-based formats (JSON, Markdown, plain text)",
     "main": "book2text.js",
     "bin": {
@@ -24,16 +24,16 @@
         "text",
         "extraction"
     ],
-    "author": "Your Name <your.email@example.com>",
+    "author": "Illinois Criminal Justice Information Authority",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/book2text.git"
+        "url": "https://github.com/icjia/book2text.git"
     },
     "bugs": {
-        "url": "https://github.com/yourusername/book2text/issues"
+        "url": "https://github.com/icjia/book2text/issues"
     },
-    "homepage": "https://github.com/yourusername/book2text#readme",
+    "homepage": "https://github.com/icjia/book2text#readme",
     "dependencies": {
         "epub": "^1.2.1",
         "epub2": "^2.0.3",
