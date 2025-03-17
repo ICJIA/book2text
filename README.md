@@ -1,6 +1,6 @@
 # book2text
 
-A command-line tool to convert e-books (ePub, MOBI, and PDF) to text-based formats (JSON, Markdown, plain text).
+A command-line tool to convert e-books (ePub, MOBI, and PDF) to text-based formats (JSON, Markdown, plain text). If the files are copy proected, this script will fail.
 
 ## Features
 
