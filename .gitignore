@@ -1,0 +1,67 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.sample
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build directories
+dist/
+build/
+out/
+converted/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Cache files
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+.yarn-integrity
+.parcel-cache
+
+# Output of 'npm pack'
+*.tgz
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+Thumbs.db
+ehthumbs.db
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Test directories
+/test/output/
+/test/fixtures/generated/
+
+# Debug files
+.nyc_output/
+
+# Optional: Project specific ignores
+.book2text-cache/
+output/

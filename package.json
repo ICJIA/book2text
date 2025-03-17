@@ -1,0 +1,51 @@
+{
+    "name": "book2text",
+    "version": "1.0.0",
+    "description": "Convert ePub and MOBI files to text-based formats (JSON, Markdown, plain text)",
+    "main": "book2text.js",
+    "bin": {
+        "book2text": "./bin/cli.js"
+    },
+    "scripts": {
+        "test": "node ./test/runner.js",
+        "test:conversion": "node ./test/conversion.test.js",
+        "start": "node ./bin/cli.js",
+        "prepublishOnly": "npm test",
+        "postinstall": "chmod +x ./bin/cli.js"
+    },
+    "keywords": [
+        "ebook",
+        "epub",
+        "mobi",
+        "pdf",
+        "converter",
+        "json",
+        "markdown",
+        "text",
+        "extraction"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/book2text.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/book2text/issues"
+    },
+    "homepage": "https://github.com/yourusername/book2text#readme",
+    "dependencies": {
+        "epub": "^1.2.1",
+        "epub2": "^2.0.3",
+        "pdfjs-dist": "^3.5.141",
+        "turndown": "^7.1.2",
+        "yargs": "^17.7.2"
+    },
+    "optionalDependencies": {
+        "pdf-parse": "^1.1.1"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
